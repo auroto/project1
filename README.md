@@ -55,7 +55,7 @@
 
 ### 4.1 漏斗诊断：两大瓶颈
 
-![漏斗对比图](output/funnel_by_experiment.png)
+![漏斗对比图]<img width="1484" height="882" alt="funnel_by_experiment" src="https://github.com/user-attachments/assets/a153ffdb-1db9-40f4-9484-4ad39759e81c" />
 
 | 环节 | 转化率 | 流失率 |
 | :--- | :--- | :--- |
@@ -86,8 +86,6 @@
 
 ### 4.3 渠道分析：差异有限
 
-![渠道购买率](output/channel_purchase_rate.png)
-
 | 渠道 | 用户数 | 购买率 |
 | :--- | :--- | :--- |
 | Email | 14,992 | 65.15% |
@@ -110,17 +108,29 @@
 
 ## 六、项目结构
 ├── README.md
+
 ├── ecommerce_analysis.ipynb # 完整分析 Notebook
+
 └── output/
+
 ├── funnel_result.csv # 漏斗各环节数值
+
 ├── ab_session_funnel.csv # 会话级 A/B/C 漏斗
+
 ├── ab_event_funnel.csv # 事件级 A/B/C 漏斗
+
 ├── channel_purchase_rate.csv # 渠道购买率
+
 ├── session_purchase_rate.csv # 各组会话级购买率
+
 ├── chi_square_result.csv # 卡方检验结果
+
 ├── summary.csv # 关键结果汇总
+
 ├── event_distribution.png # 事件类型分布
+
 ├── funnel_by_experiment.png # 三组漏斗对比图
+
 └── channel_purchase_rate.png # 渠道购买率图
 
 
